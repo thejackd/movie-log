@@ -32,7 +32,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background-color: rgb(207, 228, 185);*/
 }
 
 .link-box {
@@ -90,3 +89,66 @@ li {
     visibility: visible;
     right: 105%
 }
+
+.row-container {
+    display: flex;
+    text-align: center;
+    
+}
+
+.entry {
+    position: relative;
+    top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: min-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.entry:hover{
+    position: relative;
+    top: -10px;
+    transition: all 100ms ease-out;
+}
+
+.drama-title{
+    text-align: left;
+}
+
+.title{
+    background-color: #d5d5d5;
+}
+
+img {
+    width: 180px;
+    clip: auto;
+}
+
+.tier{
+    background-color: #ee8700;
+    padding: 15px;
+    margin: 10px;
+}
+
+.row-label{
+    color: #ffffff;
+}
+
+.rank{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag{
+    background-color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+
+}
+
+
